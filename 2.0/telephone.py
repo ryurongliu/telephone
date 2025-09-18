@@ -1,6 +1,10 @@
 import numpy as np
 import time
 import random
+import os
+import json
+
+from datetime import datetime
 
 from pythonosc.udp_client import SimpleUDPClient
 from pythonosc.dispatcher import Dispatcher
@@ -30,6 +34,7 @@ class Phonebook:
     #connect to max
     ip = "127.0.0.1"
     port = 8000
+    record_folder = "call_logs/"
 
     plight_map = {
         0:2,
@@ -61,7 +66,8 @@ class Phonebook:
     
         return s
 
-    def __init__(self, n, hl=None, pl=None): 
+    def __init__(self, n, hl=None, pl=None, record=False,
+                 print_record=False, confirm_record=False, verbose=True): 
 
         #hl: Arduino object connected to home lights
         #pl: Arduino object conected to phone lights 
@@ -76,6 +82,12 @@ class Phonebook:
 
         self.hl = hl
         self.pl = pl
+
+        self.record = record
+        self.call_log = [] #log of calls during this "day"
+        self.print_record = print_record
+        self.confirm_record = confirm_record
+        self.verbose = verbose
         
         self.client = SimpleUDPClient(Phonebook.ip, Phonebook.port)
 
@@ -89,8 +101,12 @@ class Phonebook:
 
     def reset(self):
 
-        #turn everything off
+        #record call log if there's stuff in there, then clear it out
+        if self.record and len(self.call_log) > 0:
+            self.save_call_log()
+            self.call_log = []
 
+        #turn everything off
         for i in range(self.num_lines): #send 0 to /1-home, /1-phone, etc. 
             flag1 = "/" + str(i) + "-" + "home"
             flag2 = "/" + str(i) + "-" + "phone"
@@ -114,7 +130,7 @@ class Phonebook:
             self.sleepy = []
             self.awake = []
 
-            self.lines[i].reset()
+            self.lines[i].reset() #this clears out each telephone's call log
 
             #turn off homelights
             if self.hl is not None:
@@ -126,8 +142,26 @@ class Phonebook:
                 #phonelights 2-10, 12
                 for i in range(self.num_lines):
                     self.pl.digital[Phonebook.plight_map[i]].write(False)
-                
             
+        return
+
+    def save_call_log(self):
+
+        #save phonebook call log to all
+        
+        log_name = datetime.now().strftime('%m_%d_%Y_%I_%M_%S%p')
+
+        print("saving phonebook call log of", len(self.call_log), "calls at", log_name)
+        #print(self.call_log)
+        
+        filename = Phonebook.record_folder + "all/" + log_name + ".txt"
+        with open(filename, 'w') as f:
+            json.dump(self.call_log, f, sort_keys=True, indent=4)
+        
+        #save each telephone's call log to their respective folder 
+        for i in range(self.num_lines):
+            self.lines[i].save_call_log(log_name)
+
         return
 
 
@@ -190,8 +224,8 @@ class Phonebook:
             "hanguptime_high": 9,
             "talktime_low": 5,
             "talktime_high": 15,
-            "norecall": 0.5,
-            "recall": 0.5,
+            "norecall": 0.8, #0.5,
+            "recall": 0.2, #0.5,
             "waittime_low": 3,
             "waittime_high": 7
             
@@ -217,6 +251,8 @@ class Phonebook:
             self.hangup_time = np.inf #how long for receiver to wait before hangup
             self.talk_time = np.inf #how long to talk before hangup 
             self.wait_time = np.inf #how long to wait before calling someone else
+
+            self.call_datetime = "" #what irl time was the call placed 
             
             self.zero_time = None #global time at which to start counting
 
@@ -225,6 +261,8 @@ class Phonebook:
             self.will_call = False #whether or not phone will call someone else
 
             self.note_range = note_range #midi notes covered, inclusive
+
+            self.call_log = [] #log of calls made
 
             #convo information
             self.convo = self.Convo(self.phonebook) #instantiate blank 
@@ -265,11 +303,28 @@ class Phonebook:
             
             self.zero_time = None #global time at which to start counting
 
+            self.call_datetime = "" 
+
             self.will_pickup = False #whether or not receiver will pick up 
 
             self.will_call = False #whether or not phone will call someone else
 
             self.convo.clear()
+
+            self.call_log = [] #clear call log
+
+            return
+
+        def save_call_log(self, logname):
+
+            #save to own folder
+            if self.phonebook.confirm_record:
+                print("saving telephone", self.number, "call log of", len(self.call_log), "calls at", logname)
+           # print(self.number, self.call_log)
+
+            filename = Phonebook.record_folder + str(self.number) + "/" + "phone_" + str(self.number) + "_" + logname + ".txt"
+            with open(filename, 'w') as f:
+                json.dump(self.call_log, f, sort_keys=True, indent=4)
 
             return
             
@@ -278,7 +333,9 @@ class Phonebook:
             self.awake = True
             self.phonebook.report(self.number, "home", 1)
             self.phonebook.awake.append(self.number)
-            print(self.number, "waking up")
+
+            if self.phonebook.verbose:
+                print(self.number, "waking up")
             return
 
         def sleep(self): #turn homelight off
@@ -287,18 +344,24 @@ class Phonebook:
             self.phonebook.sleepy.remove(self.number)
             
             self.phonebook.awake.remove(self.number)
-            #print(self.number, "asleep") 
+
+            if self.phonebook.verbose:
+                    print(self.number, "going to sleep")
+
             return
 
         def set_dialtime(self):
             self.dial_time = rand_range(self.params["dialtime_low"], self.params["dialtime_high"])
-            print(self.number, "dialtime", self.dial_time)
+
+            if self.phonebook.verbose:
+                print(self.number, "dialtime", self.dial_time)
             return
 
         def choose_pickup(self):
 
             self.will_pickup = np.random.choice([0, 1], p=[self.params["hangup_prob"], self.params["pickup_prob"]])
-            print(self.number, "will pickup?", self.will_pickup)
+            if self.phonebook.verbose:
+                print(self.number, "will pickup?", self.will_pickup)
             if self.will_pickup:
                 self.set_pickuptime()
             else:
@@ -307,25 +370,31 @@ class Phonebook:
 
         def set_pickuptime(self):
             self.pickup_time = rand_range(self.params["pickuptime_low"], self.params["pickuptime_high"])
-            print(self.number, "pickuptime", self.pickup_time)
+            if self.phonebook.verbose:
+                print(self.number, "pickuptime", self.pickup_time)
             return
 
         def set_hanguptime(self):
             self.hangup_time = rand_range(self.params["hanguptime_low"], self.params["hanguptime_high"])
-            print(self.number, "hanguptime", self.hangup_time)
+            if self.phonebook.verbose:
+                print(self.number, "hanguptime", self.hangup_time)
             return
 
         def set_talktime(self, ttime=None):
             if ttime is None:
-                self.talk_time = np.random.randint(self.params["talktime_low"], self.params["talktime_high"])
+                self.talk_time = np.random.randint(self.params["talktime_low"]*1000, self.params["talktime_high"]*1000) / 1000
             else:
                 self.talk_time = ttime
-            print(self.number, "talktime", self.talk_time)
+                
+            if self.phonebook.verbose:
+                print(self.number, "talktime", self.talk_time)
             return
 
         def set_willcall(self, global_time):
             self.will_call = np.random.choice([0, 1], p=[self.params["norecall"], self.params["recall"]])
-            print(self.number, "will recall?", self.will_call)
+            if self.phonebook.verbose:
+                print(self.number, "will recall?", self.will_call)
+                
             if self.will_call:
                 self.set_waittime(global_time)
             else:
@@ -347,7 +416,9 @@ class Phonebook:
 
             self.phonebook.report(self.number, "wait", 1)
             self.phonebook.report(self.number, "msg", "waiting")
-            print(self.number, "waittime", self.wait_time, "zero time", self.zero_time)
+
+            if self.phonebook.verbose:
+                print(self.number, "waittime", self.wait_time, "zero time", self.zero_time)
             return
         
     
@@ -355,7 +426,8 @@ class Phonebook:
 
             if not self.busy:
 
-                print(str(self.number), "calling", str(num)) 
+                if self.phonebook.verbose:
+                    print(str(self.number), "calling", str(num)) 
     
                 #flag self + define time
                 self.calling = True
@@ -368,6 +440,8 @@ class Phonebook:
                 self.friend = num
                 self.set_dialtime()
                 self.zero_time = global_dt
+
+                self.call_datetime = datetime.now().strftime('%B %d, %Y %I:%M:%S%p')
     
                 #flag friend 
                 self.phonebook.lines[num].receiving = True
@@ -405,7 +479,8 @@ class Phonebook:
 
             if self.receiving:
 
-                print(str(self.number), "picked up call from ", str(self.friend))
+                if self.phonebook.verbose:
+                    print(str(self.number), "picked up call from ", str(self.friend))
 
                 #set talk time
                 self.set_talktime()
@@ -434,8 +509,10 @@ class Phonebook:
                 self.phonebook.report(self.friend, "msg", "talking " + str(self.number))
 
                 #start audio for convo
-                print("receiver", self.convo.receiver.number, self.convo.caller.number)
-                print("caller", self.phonebook.lines[self.friend].convo.receiver.number, self.phonebook.lines[self.friend].convo.caller.number) 
+                if self.phonebook.verbose:
+                    print("receiver", self.convo.receiver.number, self.convo.caller.number)
+                    print("caller", self.phonebook.lines[self.friend].convo.receiver.number,
+                          self.phonebook.lines[self.friend].convo.caller.number) 
                 self.convo.report()
                 self.convo.start()
 
@@ -454,7 +531,55 @@ class Phonebook:
             if self.calling:
 
                 #no response
-                print(str(self.number), "hanging up on", str(self.friend), ", no response")
+                if self.phonebook.verbose:
+                    print(str(self.number), "hanging up on", str(self.friend), ", no response")
+
+                if self.phonebook.record:
+
+                    timestamp = self.call_datetime
+                    ringtime = str(round(self.dial_time,2)) + "s"
+
+                    pb_entry = {
+                        "timestamp": timestamp,
+                        "caller": int(self.number), 
+                        "receiver": int(self.friend), 
+                        "call_type": "unanswered",
+                        "ringtime": ringtime}
+
+                    self.phonebook.call_log.append(pb_entry)
+                    
+                    #save to telephones
+
+                    caller_entry = {
+                        "timestamp": timestamp,
+                        "type": "cancelled", 
+                        "self": int(self.number),
+                        "other": int(self.friend), 
+                        "ringtime": ringtime}
+
+                    receiver_entry = {
+                        "timestamp": timestamp,
+                        "type": "missed",
+                        "self": int(self.friend),
+                        "other": int(self.number), 
+                        "ringtime": ringtime}
+
+                    self.phonebook.lines[self.friend].call_log.append(receiver_entry)
+                    self.call_log.append(caller_entry)
+                    
+                    if self.phonebook.print_record:
+                        print("CALL LOG:", self.call_datetime, 
+                              str(self.number), "-->", str(self.friend) + ",", "call unanswered,",
+                              "ringtime", str(round(self.dial_time, 2))+"s")
+
+                        # print("\t\t\t\t\t", str(self.number), "-->", str(self.friend), "cancelled call",
+                        #       "ringtime", str(round(self.dial_time, 2))+"s")
+                        # print("\t\t\t\t\t", str(self.friend), "<--", str(self.number), "missed call",
+                        #       "ringtime", str(round(self.dial_time, 2))+"s")
+
+                        # print(pb_entry)
+                        # print(caller_entry)
+                        # print(receiver_entry)
 
                 #report to client
                 self.phonebook.report(self.number, "msg", " ")
@@ -487,7 +612,55 @@ class Phonebook:
             elif self.receiving:
 
                 #don't want to pick up 
-                print(str(self.number), "hanging up on", str(self.friend), ", don't want to talk")
+                if self.phonebook.verbose:
+                    print(str(self.number), "hanging up on", str(self.friend), ", don't want to talk")
+
+                if self.phonebook.record:
+                    #save to phonebook
+                    timestamp = self.phonebook.lines[self.friend].call_datetime
+                    ringtime = str(round(self.hangup_time,2)) + "s"
+
+                    pb_entry = {
+                        "timestamp": timestamp,
+                        "caller": self.friend, 
+                        "receiver": self.number, 
+                        "call_type": "declined",
+                        "ringtime": ringtime}
+
+                    self.phonebook.call_log.append(pb_entry)
+                    
+                    #save to telephones
+
+                    caller_entry = {
+                        "timestamp": timestamp,
+                        "type": "outgoing", 
+                        "self": self.friend,
+                        "other": self.number, 
+                        "ringtime": ringtime}
+
+                    receiver_entry = {
+                        "timestamp": timestamp,
+                        "type": "missed",
+                        "self": self.number,
+                        "other": self.friend, 
+                        "ringtime": ringtime}
+
+                    self.phonebook.lines[self.friend].call_log.append(caller_entry)
+                    self.call_log.append(receiver_entry)
+                    
+                    if self.phonebook.print_record:
+                        print("CALL LOG:", self.phonebook.lines[self.friend].call_datetime, 
+                              str(self.friend), "-->", str(self.number) + "," , "call declined,",
+                              "ringtime", str(round(self.hangup_time, 2))+"s")
+
+                        # print("\t\t\t\t\t", str(self.friend), "-->", str(self.number), "outgoing call",
+                        #       "ringtime", str(round(self.hangup_time, 2))+"s")
+                        # print("\t\t\t\t\t", str(self.number), "<--", str(self.friend), "missed call",
+                        #       "ringtime", str(round(self.hangup_time, 2))+"s")
+
+                        # print(pb_entry)
+                        # print(caller_entry)
+                        # print(receiver_entry)
 
                 #report to client
                 self.phonebook.report(self.number, "msg", " ")
@@ -519,7 +692,62 @@ class Phonebook:
             elif self.talking:
 
                 #done talking
-                print(str(self.number), "hanging up on", str(self.friend), ", done talking")
+                if self.phonebook.verbose:
+                    print(str(self.number), "hanging up on", str(self.friend), ", done talking")
+
+                if self.phonebook.record:
+
+                    timestamp = self.phonebook.lines[self.convo.caller.number].call_datetime
+                    ringtime = str(round(self.phonebook.lines[self.convo.receiver.number].pickup_time, 2))+"s"
+                    dur = str(round(min(self.talk_time, self.phonebook.lines[self.friend].talk_time), 2)) + "s"
+
+                    pb_entry = {
+                        "timestamp": timestamp,
+                        "caller": self.convo.caller.number, 
+                        "receiver": self.convo.receiver.number, 
+                        "call_type": "connected",
+                        "call_duration": dur,
+                        "ringtime": ringtime}
+
+                    self.phonebook.call_log.append(pb_entry)
+                    
+                    #save to telephones
+
+                    caller_entry = {
+                        "timestamp": timestamp,
+                        "type": "outgoing", 
+                        "self": self.convo.caller.number,
+                        "other": self.convo.receiver.number, 
+                        "call_duration": dur,
+                        "ringtime": ringtime}
+
+                    receiver_entry = {
+                        "timestamp": timestamp,
+                        "type": "incoming",
+                        "self": self.convo.receiver.number,
+                        "other": self.convo.caller.number, 
+                        "call_duration": dur,
+                        "ringtime": ringtime}
+
+                    self.phonebook.lines[self.friend].call_log.append(caller_entry)
+                    self.call_log.append(receiver_entry)
+                    
+                    if self.phonebook.print_record:
+                        print("CALL LOG:", self.phonebook.lines[self.convo.caller.number].call_datetime, 
+                              str(self.convo.caller.number), "-->", str(self.convo.receiver.number) + ",", 
+                              "call duration", str(round(min(self.talk_time, self.phonebook.lines[self.friend].talk_time), 2)) + "s,",
+                              "ringtime", str(round(self.phonebook.lines[self.convo.receiver.number].pickup_time, 2))+"s")
+
+                        # print("\t\t\t\t\t", str(self.convo.caller.number), "-->", str(self.convo.receiver.number), "outgoing call",
+                        #       "call duration", str(round(min(self.talk_time, self.phonebook.lines[self.friend].talk_time), 2)) + "s,",
+                        #       "ringtime", str(round(self.phonebook.lines[self.convo.receiver.number].pickup_time, 2))+"s")
+                        # print("\t\t\t\t\t", str(self.convo.receiver.number), "<--", str(self.convo.caller.number), "incoming call",
+                        #       "call duration", str(round(min(self.talk_time, self.phonebook.lines[self.friend].talk_time), 2)) + "s,",
+                        #       "ringtime", str(round(self.phonebook.lines[self.convo.receiver.number].pickup_time, 2))+"s")
+
+                        # print(pb_entry)
+                        # print(caller_entry)
+                        # print(receiver_entry)
 
                 #report to client
                 self.phonebook.report(self.number, "msg", " ")
@@ -610,12 +838,16 @@ class Phonebook:
 
         def generate(self, time, pb, t2_num):
 
+
             t2 = pb.lines[t2_num]
 
-            print("generating", self.number, t2.number)
+            if self.phonebook.verbose:
+                print("generating", self.number, t2.number, "time", time)
 
             self.convo = Phonebook.Telephone.Convo(pb, receiver=self, caller=t2)
-            print(self.convo.receiver.number)
+
+            if self.phonebook.verbose:
+                print(self.convo.receiver.number)
             
             #generate convo within timeframe
             #attach to rec and call telephone objs 
@@ -971,7 +1203,8 @@ class Phonebook:
                 self.envs_call = " zlclear"
 
                 if self.receiver is not None and self.caller is not None:
-                    print("clearing", self.receiver.number, self.caller.number)
+                    if self.receiver.phonebook.verbose:
+                        print("clearing", self.receiver.number, self.caller.number)
                     self.report()
 
                 self.receiver = None
@@ -1007,7 +1240,7 @@ class Phonebook:
 
 ###############################################################
 
-def main_telephone(phonebook, starters, dt, num_new_starters, num_lines):
+def main_telephone(phonebook, starters, dt, num_new_starters, num_lines, verbose=True):
 
     phones = phonebook.lines
     curr_time = 0
@@ -1018,14 +1251,17 @@ def main_telephone(phonebook, starters, dt, num_new_starters, num_lines):
     for i in range(len(starters)):
         phone = phones[starters[i]]
         phone.set_waittime(curr_time)
+        
 
     #then, do loop
     t=0
     done = False
+    print("STARTING")
     while not done:
 
         if t%10 == 0:
-            print("t=", round(curr_time, 0))
+            if verbose:
+                print("t=", round(curr_time, 0))
            # print("downtime=", downtime)
             # print("busy lines", phonebook.busy)
             # print("not busy", phonebook.not_busy)
@@ -1093,7 +1329,6 @@ def main_telephone(phonebook, starters, dt, num_new_starters, num_lines):
             phonetime = curr_time - phone.zero_time
     
             if phone.sleepy and phonetime > 2:
-                print(phone.number, " going to sleep")
                 phone.sleep()
     
         
@@ -1110,7 +1345,7 @@ def main_telephone(phonebook, starters, dt, num_new_starters, num_lines):
             downtime += 1
     
         if downtime > 100: #reset
-    
+
             print()
             print("RESTARTING")
     
