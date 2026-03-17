@@ -1,0 +1,80 @@
+[
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 2,
+        "ringtime": "5.65s",
+        "timestamp": "December 03, 2025 03:15:20AM"
+    },
+    {
+        "call_duration": "14.07s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 6,
+        "ringtime": "7.53s",
+        "timestamp": "December 03, 2025 03:15:33AM"
+    },
+    {
+        "call_duration": "14.47s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 7,
+        "ringtime": "7.33s",
+        "timestamp": "December 03, 2025 03:15:34AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 0,
+        "ringtime": "4.73s",
+        "timestamp": "December 03, 2025 03:16:04AM"
+    },
+    {
+        "call_duration": "10.27s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 2,
+        "ringtime": "4.46s",
+        "timestamp": "December 03, 2025 03:16:00AM"
+    },
+    {
+        "call_duration": "10.49s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 4,
+        "ringtime": "7.46s",
+        "timestamp": "December 03, 2025 03:16:03AM"
+    },
+    {
+        "call_duration": "9.82s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 6,
+        "ringtime": "5.12s",
+        "timestamp": "December 03, 2025 03:16:20AM"
+    },
+    {
+        "call_duration": "13.88s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 5,
+        "ringtime": "8.01s",
+        "timestamp": "December 03, 2025 03:16:16AM"
+    },
+    {
+        "call_duration": "5.43s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 5,
+        "ringtime": "7.77s",
+        "timestamp": "December 03, 2025 03:16:40AM"
+    },
+    {
+        "call_duration": "12.61s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 3,
+        "ringtime": "5.58s",
+        "timestamp": "December 03, 2025 03:17:00AM"
+    }
+]

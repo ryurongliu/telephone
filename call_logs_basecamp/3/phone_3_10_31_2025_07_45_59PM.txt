@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "9.78s",
+        "other": 2,
+        "ringtime": "5.1s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:40:00PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 2,
+        "ringtime": "7.71s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:40:22PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "11.6s",
+        "other": 2,
+        "ringtime": "5.08s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:40:35PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.51s",
+        "other": 1,
+        "ringtime": "4.86s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:40:59PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.61s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:41:20PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "12.04s",
+        "other": 2,
+        "ringtime": "4.07s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:41:34PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.32s",
+        "other": 5,
+        "ringtime": "7.11s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:41:53PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.81s",
+        "other": 5,
+        "ringtime": "6.66s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:42:15PM",
+        "type": "incoming"
+    },
+    {
+        "other": 4,
+        "ringtime": "8.39s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:42:51PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "8.03s",
+        "other": 6,
+        "ringtime": "7.7s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:43:04PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "5.3s",
+        "self": 3,
+        "timestamp": "October 31, 2025 07:43:26PM",
+        "type": "outgoing"
+    }
+]

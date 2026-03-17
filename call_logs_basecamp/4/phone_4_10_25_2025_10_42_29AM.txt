@@ -1,0 +1,86 @@
+[
+    {
+        "other": 6,
+        "ringtime": "7.55s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:36:24AM",
+        "type": "missed"
+    },
+    {
+        "other": 2,
+        "ringtime": "7.99s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:36:50AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "6.1s",
+        "other": 1,
+        "ringtime": "5.32s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:37:04AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.03s",
+        "other": 5,
+        "ringtime": "5.49s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:37:27AM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "8.54s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:37:52AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "9.05s",
+        "other": 6,
+        "ringtime": "4.15s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:38:26AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.11s",
+        "other": 5,
+        "ringtime": "4.34s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:38:47AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "9.73s",
+        "other": 7,
+        "ringtime": "6.43s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:39:10AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.27s",
+        "other": 3,
+        "ringtime": "5.37s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:39:31AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 5,
+        "ringtime": "7.62s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:40:23AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "9.85s",
+        "other": 6,
+        "ringtime": "8.95s",
+        "self": 4,
+        "timestamp": "October 25, 2025 10:40:50AM",
+        "type": "incoming"
+    }
+]

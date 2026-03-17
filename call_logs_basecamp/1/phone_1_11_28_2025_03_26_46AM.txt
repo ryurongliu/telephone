@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "13.48s",
+        "other": 6,
+        "ringtime": "4.53s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:15:53AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.87s",
+        "other": 2,
+        "ringtime": "4.86s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:16:15AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.28s",
+        "other": 7,
+        "ringtime": "6.15s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:16:53AM",
+        "type": "incoming"
+    },
+    {
+        "other": 6,
+        "ringtime": "8.65s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:17:15AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "13.91s",
+        "other": 7,
+        "ringtime": "7.87s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:22:46AM",
+        "type": "incoming"
+    },
+    {
+        "other": 2,
+        "ringtime": "8.02s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:24:53AM",
+        "type": "missed"
+    },
+    {
+        "other": 3,
+        "ringtime": "6.19s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:25:06AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "10.52s",
+        "other": 4,
+        "ringtime": "5.55s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:25:16AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "7.71s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:25:39AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.04s",
+        "other": 0,
+        "ringtime": "4.87s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:25:55AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "12.06s",
+        "other": 0,
+        "ringtime": "5.5s",
+        "self": 1,
+        "timestamp": "November 28, 2025 03:26:14AM",
+        "type": "outgoing"
+    }
+]

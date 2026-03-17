@@ -1,0 +1,87 @@
+[
+    {
+        "call_duration": "9.9s",
+        "other": 1,
+        "ringtime": "7.72s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:25:11AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.46s",
+        "other": 2,
+        "ringtime": "7.18s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:26:44AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "11.6s",
+        "other": 5,
+        "ringtime": "7.03s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:28:46AM",
+        "type": "incoming"
+    },
+    {
+        "other": 6,
+        "ringtime": "7.39s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:29:11AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "8.63s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:29:23AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "14.44s",
+        "other": 1,
+        "ringtime": "6.73s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:29:46AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.11s",
+        "other": 6,
+        "ringtime": "4.76s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:30:23AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.87s",
+        "other": 0,
+        "ringtime": "4.13s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:30:46AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.96s",
+        "other": 0,
+        "ringtime": "4.55s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:31:06AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "6.13s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:31:28AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.64s",
+        "other": 2,
+        "ringtime": "6.55s",
+        "self": 4,
+        "timestamp": "November 24, 2025 04:31:38AM",
+        "type": "outgoing"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "11.61s",
+        "other": 2,
+        "ringtime": "4.78s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:03:38PM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "5.68s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:04:00PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.53s",
+        "other": 5,
+        "ringtime": "8.38s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:04:08PM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "7.18s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:04:38PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 4,
+        "ringtime": "6.56s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:04:50PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.3s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:05:01PM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "10.11s",
+        "other": 7,
+        "ringtime": "4.72s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:05:13PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "13.37s",
+        "other": 0,
+        "ringtime": "4.55s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:05:32PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "9.83s",
+        "other": 0,
+        "ringtime": "7.73s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:06:17PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.62s",
+        "other": 0,
+        "ringtime": "7.99s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:06:40PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "6.03s",
+        "other": 6,
+        "ringtime": "8.39s",
+        "self": 3,
+        "timestamp": "December 03, 2025 04:06:58PM",
+        "type": "outgoing"
+    }
+]

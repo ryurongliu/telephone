@@ -1,0 +1,102 @@
+[
+    {
+        "call_duration": "6.5s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 2,
+        "ringtime": "4.55s",
+        "timestamp": "November 14, 2025 04:02:46PM"
+    },
+    {
+        "call_duration": "14.95s",
+        "call_type": "connected",
+        "caller": 4,
+        "receiver": 7,
+        "ringtime": "5.91s",
+        "timestamp": "November 14, 2025 04:02:45PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 0,
+        "ringtime": "8.29s",
+        "timestamp": "November 14, 2025 04:03:02PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 7,
+        "receiver": 0,
+        "ringtime": "6.24s",
+        "timestamp": "November 14, 2025 04:03:13PM"
+    },
+    {
+        "call_duration": "6.68s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 5,
+        "ringtime": "8.68s",
+        "timestamp": "November 14, 2025 04:03:05PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 4,
+        "receiver": 1,
+        "ringtime": "7.73s",
+        "timestamp": "November 14, 2025 04:03:13PM"
+    },
+    {
+        "call_duration": "7.18s",
+        "call_type": "connected",
+        "caller": 5,
+        "receiver": 2,
+        "ringtime": "4.3s",
+        "timestamp": "November 14, 2025 04:03:26PM"
+    },
+    {
+        "call_duration": "8.11s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 4,
+        "ringtime": "4.2s",
+        "timestamp": "November 14, 2025 04:03:26PM"
+    },
+    {
+        "call_duration": "9.23s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 6,
+        "ringtime": "4.22s",
+        "timestamp": "November 14, 2025 04:03:26PM"
+    },
+    {
+        "call_type": "unanswered",
+        "caller": 4,
+        "receiver": 0,
+        "ringtime": "8.05s",
+        "timestamp": "November 14, 2025 04:03:44PM"
+    },
+    {
+        "call_duration": "9.1s",
+        "call_type": "connected",
+        "caller": 5,
+        "receiver": 3,
+        "ringtime": "5.15s",
+        "timestamp": "November 14, 2025 04:03:44PM"
+    },
+    {
+        "call_duration": "10.47s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 1,
+        "ringtime": "6.21s",
+        "timestamp": "November 14, 2025 04:03:46PM"
+    },
+    {
+        "call_duration": "11.96s",
+        "call_type": "connected",
+        "caller": 5,
+        "receiver": 7,
+        "ringtime": "8.03s",
+        "timestamp": "November 14, 2025 04:04:06PM"
+    }
+]

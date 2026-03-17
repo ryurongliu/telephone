@@ -1,0 +1,85 @@
+[
+    {
+        "call_duration": "11.47s",
+        "other": 5,
+        "ringtime": "7.51s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:18:02AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 3,
+        "ringtime": "7.54s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:18:28AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "5.77s",
+        "other": 6,
+        "ringtime": "4.13s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:18:40AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "12.11s",
+        "other": 2,
+        "ringtime": "6.01s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:19:02AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "5.58s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:19:27AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "9.05s",
+        "other": 5,
+        "ringtime": "4.9s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:19:45AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.32s",
+        "other": 1,
+        "ringtime": "4.89s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:20:04AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 1,
+        "ringtime": "8.5s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:20:38AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.85s",
+        "other": 0,
+        "ringtime": "6.57s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:20:48AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "6.77s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:21:09AM",
+        "type": "missed"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.97s",
+        "self": 7,
+        "timestamp": "December 03, 2025 04:21:24AM",
+        "type": "outgoing"
+    }
+]

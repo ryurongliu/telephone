@@ -1,0 +1,57 @@
+[
+    {
+        "call_duration": "5.92s",
+        "other": 5,
+        "ringtime": "6.69s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:05:09AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.73s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:05:26AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "12.1s",
+        "other": 6,
+        "ringtime": "6.61s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:05:52AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.27s",
+        "other": 1,
+        "ringtime": "7.52s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:06:45AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.56s",
+        "other": 0,
+        "ringtime": "5.44s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:07:48AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.98s",
+        "other": 4,
+        "ringtime": "6.8s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:08:04AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "14.02s",
+        "other": 1,
+        "ringtime": "4.59s",
+        "self": 7,
+        "timestamp": "December 04, 2025 06:08:23AM",
+        "type": "outgoing"
+    }
+]

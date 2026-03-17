@@ -1,0 +1,87 @@
+[
+    {
+        "call_duration": "12.82s",
+        "other": 4,
+        "ringtime": "8.24s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:01:21AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.0s",
+        "other": 1,
+        "ringtime": "7.09s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:01:48AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "5.65s",
+        "other": 0,
+        "ringtime": "6.32s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:02:06AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.34s",
+        "other": 5,
+        "ringtime": "4.19s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:02:25AM",
+        "type": "incoming"
+    },
+    {
+        "other": 4,
+        "ringtime": "8.98s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:03:15AM",
+        "type": "missed"
+    },
+    {
+        "other": 4,
+        "ringtime": "7.43s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:03:31AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "13.46s",
+        "other": 0,
+        "ringtime": "6.07s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:03:48AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.58s",
+        "other": 7,
+        "ringtime": "4.35s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:04:15AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.56s",
+        "other": 7,
+        "ringtime": "6.17s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:04:38AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.2s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:04:58AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "5.74s",
+        "other": 2,
+        "ringtime": "6.04s",
+        "self": 3,
+        "timestamp": "December 06, 2025 02:05:14AM",
+        "type": "incoming"
+    }
+]

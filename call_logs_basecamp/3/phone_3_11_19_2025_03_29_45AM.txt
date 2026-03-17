@@ -1,0 +1,85 @@
+[
+    {
+        "call_duration": "5.35s",
+        "other": 5,
+        "ringtime": "7.99s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:24:20AM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "4.99s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:24:38AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "14.04s",
+        "other": 5,
+        "ringtime": "4.35s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:24:47AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 1,
+        "ringtime": "5.46s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:25:10AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.23s",
+        "other": 7,
+        "ringtime": "7.6s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:25:23AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.23s",
+        "other": 6,
+        "ringtime": "8.71s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:25:46AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "8.22s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:26:13AM",
+        "type": "cancelled"
+    },
+    {
+        "other": 2,
+        "ringtime": "7.91s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:26:27AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.03s",
+        "other": 2,
+        "ringtime": "8.29s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:26:41AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "11.53s",
+        "other": 2,
+        "ringtime": "4.1s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:27:05AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "6.59s",
+        "self": 3,
+        "timestamp": "November 19, 2025 03:29:21AM",
+        "type": "missed"
+    }
+]

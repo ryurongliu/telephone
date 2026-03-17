@@ -1,0 +1,86 @@
+[
+    {
+        "other": 3,
+        "ringtime": "4.52s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:01:02PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "8.44s",
+        "other": 3,
+        "ringtime": "6.18s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:01:11PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.66s",
+        "other": 3,
+        "ringtime": "4.11s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:01:30PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.85s",
+        "other": 6,
+        "ringtime": "5.11s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:02:08PM",
+        "type": "incoming"
+    },
+    {
+        "other": 6,
+        "ringtime": "8.88s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:02:26PM",
+        "type": "missed"
+    },
+    {
+        "other": 0,
+        "ringtime": "5.9s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:02:39PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.84s",
+        "other": 4,
+        "ringtime": "4.2s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:02:50PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.04s",
+        "other": 0,
+        "ringtime": "4.3s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:03:09PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.8s",
+        "other": 1,
+        "ringtime": "5.61s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:04:05PM",
+        "type": "incoming"
+    },
+    {
+        "other": 2,
+        "ringtime": "8.15s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:04:27PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.72s",
+        "other": 0,
+        "ringtime": "5.18s",
+        "self": 5,
+        "timestamp": "December 08, 2025 12:04:39PM",
+        "type": "incoming"
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "call_duration": "13.28s",
+        "other": 7,
+        "ringtime": "4.6s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:12:07AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.75s",
+        "other": 0,
+        "ringtime": "6.86s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:13:15AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.9s",
+        "other": 7,
+        "ringtime": "4.44s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:13:38AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.15s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:13:55AM",
+        "type": "cancelled"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.42s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:14:10AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "8.78s",
+        "other": 6,
+        "ringtime": "6.43s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:14:26AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "6.48s",
+        "other": 6,
+        "ringtime": "8.31s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:14:49AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.2s",
+        "other": 0,
+        "ringtime": "7.83s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:17:13AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "11.68s",
+        "other": 0,
+        "ringtime": "4.43s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:17:48AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.46s",
+        "other": 7,
+        "ringtime": "8.82s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:18:11AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 7,
+        "ringtime": "6.36s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:18:41AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "6.74s",
+        "self": 4,
+        "timestamp": "November 15, 2025 07:18:56AM",
+        "type": "missed"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "12.44s",
+        "other": 4,
+        "ringtime": "7.88s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:50:00AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.9s",
+        "other": 4,
+        "ringtime": "5.37s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:50:25AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.37s",
+        "other": 2,
+        "ringtime": "6.24s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:51:03AM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "7.2s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:51:22AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.27s",
+        "other": 0,
+        "ringtime": "5.07s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:51:34AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "5.34s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:51:54AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.76s",
+        "other": 5,
+        "ringtime": "6.2s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:52:05AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "11.5s",
+        "other": 2,
+        "ringtime": "6.59s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:52:54AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.43s",
+        "other": 6,
+        "ringtime": "7.79s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:53:51AM",
+        "type": "incoming"
+    },
+    {
+        "other": 4,
+        "ringtime": "8.68s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:54:36AM",
+        "type": "missed"
+    },
+    {
+        "other": 2,
+        "ringtime": "5.61s",
+        "self": 3,
+        "timestamp": "November 27, 2025 02:54:49AM",
+        "type": "outgoing"
+    }
+]

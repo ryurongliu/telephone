@@ -1,0 +1,41 @@
+[
+    {
+        "call_duration": "10.09s",
+        "other": 1,
+        "ringtime": "5.27s",
+        "self": 7,
+        "timestamp": "November 15, 2025 10:24:22PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.76s",
+        "other": 5,
+        "ringtime": "8.58s",
+        "self": 7,
+        "timestamp": "November 15, 2025 10:24:42PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.03s",
+        "other": 5,
+        "ringtime": "8.14s",
+        "self": 7,
+        "timestamp": "November 15, 2025 10:25:01PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "7.27s",
+        "self": 7,
+        "timestamp": "November 15, 2025 10:25:40PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "11.5s",
+        "other": 6,
+        "ringtime": "4.84s",
+        "self": 7,
+        "timestamp": "November 15, 2025 10:25:51PM",
+        "type": "outgoing"
+    }
+]

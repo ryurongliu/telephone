@@ -1,0 +1,85 @@
+[
+    {
+        "call_duration": "12.3s",
+        "other": 7,
+        "ringtime": "7.44s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:04:16AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.52s",
+        "other": 6,
+        "ringtime": "6.61s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:04:41AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "7.48s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:05:11AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.02s",
+        "other": 1,
+        "ringtime": "5.32s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:05:35AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.89s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:05:56AM",
+        "type": "cancelled"
+    },
+    {
+        "other": 6,
+        "ringtime": "4.48s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:06:11AM",
+        "type": "missed"
+    },
+    {
+        "other": 1,
+        "ringtime": "6.82s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:06:21AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.44s",
+        "other": 1,
+        "ringtime": "7.25s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:07:42AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.25s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:09:06AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "9.8s",
+        "other": 5,
+        "ringtime": "7.94s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:09:20AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.17s",
+        "other": 5,
+        "ringtime": "8.72s",
+        "self": 4,
+        "timestamp": "November 26, 2025 01:09:45AM",
+        "type": "incoming"
+    }
+]

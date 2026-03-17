@@ -1,0 +1,87 @@
+[
+    {
+        "call_duration": "5.14s",
+        "other": 3,
+        "ringtime": "7.54s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:39:47AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 1,
+        "ringtime": "8.07s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:40:05AM",
+        "type": "cancelled"
+    },
+    {
+        "other": 4,
+        "ringtime": "6.76s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:40:19AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 7,
+        "ringtime": "8.78s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:40:35AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "8.45s",
+        "other": 1,
+        "ringtime": "4.1s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:40:49AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.53s",
+        "other": 1,
+        "ringtime": "7.77s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:41:46AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.54s",
+        "other": 4,
+        "ringtime": "8.51s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:42:11AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "12.87s",
+        "other": 7,
+        "ringtime": "7.49s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:42:38AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.67s",
+        "other": 7,
+        "ringtime": "8.76s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:43:06AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.87s",
+        "other": 3,
+        "ringtime": "6.39s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:43:28AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.23s",
+        "other": 7,
+        "ringtime": "4.04s",
+        "self": 5,
+        "timestamp": "October 18, 2025 06:43:52AM",
+        "type": "incoming"
+    }
+]

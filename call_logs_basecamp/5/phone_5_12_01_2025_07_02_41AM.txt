@@ -1,0 +1,94 @@
+[
+    {
+        "call_duration": "11.61s",
+        "other": 4,
+        "ringtime": "7.75s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:54:44AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.04s",
+        "other": 2,
+        "ringtime": "4.33s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:55:11AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "9.91s",
+        "other": 7,
+        "ringtime": "7.31s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:55:51AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "11.34s",
+        "other": 7,
+        "ringtime": "4.3s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:56:15AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "8.87s",
+        "other": 1,
+        "ringtime": "4.29s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:56:39AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "5.14s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:56:57AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "13.03s",
+        "other": 6,
+        "ringtime": "5.93s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:57:08AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.59s",
+        "other": 3,
+        "ringtime": "7.3s",
+        "self": 5,
+        "timestamp": "December 01, 2025 06:57:36AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.62s",
+        "self": 5,
+        "timestamp": "December 01, 2025 07:00:02AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.99s",
+        "other": 1,
+        "ringtime": "8.7s",
+        "self": 5,
+        "timestamp": "December 01, 2025 07:00:18AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.43s",
+        "self": 5,
+        "timestamp": "December 01, 2025 07:00:41AM",
+        "type": "cancelled"
+    },
+    {
+        "other": 4,
+        "ringtime": "8.49s",
+        "self": 5,
+        "timestamp": "December 01, 2025 07:02:07AM",
+        "type": "missed"
+    }
+]

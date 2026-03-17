@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "9.69s",
+        "other": 3,
+        "ringtime": "4.5s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:44:16PM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.06s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:44:36PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.08s",
+        "other": 4,
+        "ringtime": "5.54s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:45:04PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "13.15s",
+        "other": 3,
+        "ringtime": "4.27s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:45:25PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "5.42s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:46:30PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "13.0s",
+        "other": 4,
+        "ringtime": "4.35s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:46:41PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.01s",
+        "other": 4,
+        "ringtime": "5.96s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:47:58PM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "6.73s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:49:42PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "12.61s",
+        "other": 4,
+        "ringtime": "8.0s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:49:53PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.39s",
+        "other": 0,
+        "ringtime": "5.0s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:50:29PM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "4.87s",
+        "self": 1,
+        "timestamp": "December 01, 2025 10:52:08PM",
+        "type": "missed"
+    }
+]

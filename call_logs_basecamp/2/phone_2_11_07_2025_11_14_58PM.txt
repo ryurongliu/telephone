@@ -1,0 +1,87 @@
+[
+    {
+        "call_duration": "8.59s",
+        "other": 0,
+        "ringtime": "7.81s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:08:47PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.58s",
+        "other": 0,
+        "ringtime": "8.4s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:09:09PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.97s",
+        "other": 0,
+        "ringtime": "8.32s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:09:36PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "14.49s",
+        "other": 5,
+        "ringtime": "6.47s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:11:17PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.1s",
+        "other": 3,
+        "ringtime": "4.46s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:11:47PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.18s",
+        "other": 3,
+        "ringtime": "4.92s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:12:08PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.18s",
+        "other": 4,
+        "ringtime": "6.49s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:12:21PM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "6.22s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:13:02PM",
+        "type": "missed"
+    },
+    {
+        "other": 7,
+        "ringtime": "8.25s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:13:15PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "11.97s",
+        "other": 6,
+        "ringtime": "5.08s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:13:28PM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.2s",
+        "self": 2,
+        "timestamp": "November 07, 2025 11:13:50PM",
+        "type": "cancelled"
+    }
+]

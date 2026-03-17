@@ -1,0 +1,87 @@
+[
+    {
+        "call_type": "declined",
+        "caller": 2,
+        "receiver": 3,
+        "ringtime": "4.39s",
+        "timestamp": "December 02, 2025 05:36:24PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 4,
+        "receiver": 6,
+        "ringtime": "7.67s",
+        "timestamp": "December 02, 2025 05:36:22PM"
+    },
+    {
+        "call_duration": "10.35s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 5,
+        "ringtime": "4.3s",
+        "timestamp": "December 02, 2025 05:36:23PM"
+    },
+    {
+        "call_duration": "10.12s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 7,
+        "ringtime": "8.1s",
+        "timestamp": "December 02, 2025 05:36:23PM"
+    },
+    {
+        "call_duration": "13.63s",
+        "call_type": "connected",
+        "caller": 4,
+        "receiver": 6,
+        "ringtime": "7.48s",
+        "timestamp": "December 02, 2025 05:36:35PM"
+    },
+    {
+        "call_duration": "13.95s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 3,
+        "ringtime": "8.7s",
+        "timestamp": "December 02, 2025 05:36:34PM"
+    },
+    {
+        "call_duration": "12.73s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 7,
+        "ringtime": "5.32s",
+        "timestamp": "December 02, 2025 05:36:49PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 2,
+        "receiver": 4,
+        "ringtime": "6.56s",
+        "timestamp": "December 02, 2025 05:37:04PM"
+    },
+    {
+        "call_duration": "13.77s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 3,
+        "ringtime": "5.35s",
+        "timestamp": "December 02, 2025 05:37:02PM"
+    },
+    {
+        "call_duration": "6.88s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 0,
+        "ringtime": "7.11s",
+        "timestamp": "December 02, 2025 05:37:14PM"
+    },
+    {
+        "call_duration": "7.79s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 2,
+        "ringtime": "6.24s",
+        "timestamp": "December 02, 2025 05:37:34PM"
+    }
+]

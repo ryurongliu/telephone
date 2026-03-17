@@ -1,0 +1,85 @@
+[
+    {
+        "call_duration": "13.51s",
+        "other": 0,
+        "ringtime": "4.77s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:18:50AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.35s",
+        "other": 5,
+        "ringtime": "8.08s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:19:14AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "8.28s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:19:44AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.91s",
+        "other": 7,
+        "ringtime": "6.01s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:19:59AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.73s",
+        "other": 1,
+        "ringtime": "4.34s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:20:22AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 7,
+        "ringtime": "4.86s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:20:48AM",
+        "type": "missed"
+    },
+    {
+        "other": 4,
+        "ringtime": "8.46s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:20:58AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.62s",
+        "other": 0,
+        "ringtime": "8.2s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:21:14AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "9.48s",
+        "other": 7,
+        "ringtime": "6.61s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:21:35AM",
+        "type": "incoming"
+    },
+    {
+        "other": 6,
+        "ringtime": "7.66s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:21:59AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 1,
+        "ringtime": "8.44s",
+        "self": 2,
+        "timestamp": "October 25, 2025 10:22:12AM",
+        "type": "cancelled"
+    }
+]

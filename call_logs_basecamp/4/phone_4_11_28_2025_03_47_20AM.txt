@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "11.65s",
+        "other": 6,
+        "ringtime": "8.66s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:41:38AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "9.22s",
+        "other": 1,
+        "ringtime": "8.16s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:43:42AM",
+        "type": "incoming"
+    },
+    {
+        "other": 7,
+        "ringtime": "5.17s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:44:07AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "6.76s",
+        "other": 5,
+        "ringtime": "6.88s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:44:22AM",
+        "type": "incoming"
+    },
+    {
+        "other": 1,
+        "ringtime": "8.78s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:44:43AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "14.21s",
+        "other": 1,
+        "ringtime": "5.4s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:44:57AM",
+        "type": "incoming"
+    },
+    {
+        "other": 3,
+        "ringtime": "7.17s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:45:25AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.82s",
+        "other": 7,
+        "ringtime": "8.6s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:45:37AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 3,
+        "ringtime": "8.02s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:46:20AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "5.26s",
+        "other": 6,
+        "ringtime": "5.83s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:46:34AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "6.83s",
+        "other": 7,
+        "ringtime": "6.55s",
+        "self": 4,
+        "timestamp": "November 28, 2025 03:46:53AM",
+        "type": "outgoing"
+    }
+]

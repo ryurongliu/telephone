@@ -1,0 +1,55 @@
+[
+    {
+        "call_duration": "7.94s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 5,
+        "ringtime": "4.56s",
+        "timestamp": "November 28, 2025 04:20:37AM"
+    },
+    {
+        "call_duration": "6.14s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 5,
+        "ringtime": "6.92s",
+        "timestamp": "November 28, 2025 04:20:54AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 7,
+        "ringtime": "4.25s",
+        "timestamp": "November 28, 2025 04:21:12AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 7,
+        "receiver": 5,
+        "ringtime": "7.25s",
+        "timestamp": "November 28, 2025 04:21:24AM"
+    },
+    {
+        "call_duration": "9.57s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 6,
+        "ringtime": "5.48s",
+        "timestamp": "November 28, 2025 04:21:21AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 5,
+        "receiver": 3,
+        "ringtime": "4.28s",
+        "timestamp": "November 28, 2025 04:21:37AM"
+    },
+    {
+        "call_duration": "12.27s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 2,
+        "ringtime": "4.43s",
+        "timestamp": "November 28, 2025 04:21:38AM"
+    }
+]

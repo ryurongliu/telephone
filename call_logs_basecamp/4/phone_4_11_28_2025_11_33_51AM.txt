@@ -1,0 +1,87 @@
+[
+    {
+        "call_duration": "7.7s",
+        "other": 2,
+        "ringtime": "7.0s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:27:50AM",
+        "type": "incoming"
+    },
+    {
+        "other": 3,
+        "ringtime": "5.12s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:28:11AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "5.34s",
+        "other": 7,
+        "ringtime": "5.87s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:28:22AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.05s",
+        "other": 1,
+        "ringtime": "5.1s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:29:17AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "14.32s",
+        "other": 6,
+        "ringtime": "8.18s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:30:43AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.06s",
+        "other": 6,
+        "ringtime": "4.33s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:31:12AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.48s",
+        "other": 1,
+        "ringtime": "6.03s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:31:35AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.22s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:31:58AM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "9.96s",
+        "other": 0,
+        "ringtime": "7.26s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:32:12AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.08s",
+        "other": 0,
+        "ringtime": "8.17s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:32:37AM",
+        "type": "incoming"
+    },
+    {
+        "other": 2,
+        "ringtime": "7.0s",
+        "self": 4,
+        "timestamp": "November 28, 2025 11:33:00AM",
+        "type": "missed"
+    }
+]

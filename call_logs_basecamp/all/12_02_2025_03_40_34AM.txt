@@ -1,0 +1,79 @@
+[
+    {
+        "call_duration": "11.33s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 3,
+        "ringtime": "7.63s",
+        "timestamp": "December 02, 2025 03:38:43AM"
+    },
+    {
+        "call_type": "unanswered",
+        "caller": 3,
+        "receiver": 2,
+        "ringtime": "8.24s",
+        "timestamp": "December 02, 2025 03:39:07AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 2,
+        "receiver": 0,
+        "ringtime": "6.05s",
+        "timestamp": "December 02, 2025 03:39:22AM"
+    },
+    {
+        "call_duration": "10.07s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 4,
+        "ringtime": "5.63s",
+        "timestamp": "December 02, 2025 03:39:20AM"
+    },
+    {
+        "call_duration": "9.12s",
+        "call_type": "connected",
+        "caller": 2,
+        "receiver": 7,
+        "ringtime": "5.74s",
+        "timestamp": "December 02, 2025 03:39:36AM"
+    },
+    {
+        "call_duration": "13.13s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 1,
+        "ringtime": "6.5s",
+        "timestamp": "December 02, 2025 03:39:33AM"
+    },
+    {
+        "call_duration": "5.15s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 4,
+        "ringtime": "7.38s",
+        "timestamp": "December 02, 2025 03:39:42AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 6,
+        "ringtime": "4.02s",
+        "timestamp": "December 02, 2025 03:39:58AM"
+    },
+    {
+        "call_duration": "12.89s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 0,
+        "ringtime": "5.72s",
+        "timestamp": "December 02, 2025 03:39:59AM"
+    },
+    {
+        "call_duration": "7.02s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 1,
+        "ringtime": "6.02s",
+        "timestamp": "December 02, 2025 03:40:07AM"
+    }
+]

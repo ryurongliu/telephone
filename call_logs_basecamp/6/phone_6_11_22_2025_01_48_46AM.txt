@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "14.38s",
+        "other": 4,
+        "ringtime": "5.28s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:42:24AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "6.13s",
+        "other": 5,
+        "ringtime": "8.49s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:42:45AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "6.11s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:43:34AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "7.42s",
+        "other": 4,
+        "ringtime": "7.07s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:44:02AM",
+        "type": "incoming"
+    },
+    {
+        "other": 4,
+        "ringtime": "6.35s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:44:25AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "12.38s",
+        "other": 7,
+        "ringtime": "7.84s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:44:36AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 2,
+        "ringtime": "5.4s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:45:17AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "11.24s",
+        "other": 1,
+        "ringtime": "7.79s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:45:28AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.57s",
+        "other": 2,
+        "ringtime": "5.62s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:47:42AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.4s",
+        "other": 0,
+        "ringtime": "8.83s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:48:04AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "4.77s",
+        "self": 6,
+        "timestamp": "November 22, 2025 01:48:28AM",
+        "type": "missed"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "other": 1,
+        "ringtime": "5.0s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:28:46PM",
+        "type": "missed"
+    },
+    {
+        "other": 1,
+        "ringtime": "6.97s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:28:58PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 2,
+        "ringtime": "5.43s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:29:09PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "5.02s",
+        "other": 2,
+        "ringtime": "7.38s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:29:20PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "12.61s",
+        "other": 7,
+        "ringtime": "7.42s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:29:37PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.11s",
+        "other": 7,
+        "ringtime": "4.02s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:30:03PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.86s",
+        "other": 0,
+        "ringtime": "8.41s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:30:23PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "10.43s",
+        "other": 0,
+        "ringtime": "4.77s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:30:48PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "7.22s",
+        "other": 2,
+        "ringtime": "8.0s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:31:11PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 2,
+        "ringtime": "8.14s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:31:35PM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "8.11s",
+        "other": 3,
+        "ringtime": "7.09s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:31:51PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "5.99s",
+        "other": 5,
+        "ringtime": "4.96s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:32:15PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "11.82s",
+        "other": 5,
+        "ringtime": "8.56s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:33:09PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "8.32s",
+        "other": 2,
+        "ringtime": "8.79s",
+        "self": 6,
+        "timestamp": "November 24, 2025 06:33:40PM",
+        "type": "incoming"
+    }
+]

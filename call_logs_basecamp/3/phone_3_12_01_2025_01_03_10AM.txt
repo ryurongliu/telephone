@@ -1,0 +1,86 @@
+[
+    {
+        "call_duration": "6.35s",
+        "other": 6,
+        "ringtime": "7.4s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:56:46AM",
+        "type": "incoming"
+    },
+    {
+        "other": 2,
+        "ringtime": "7.11s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:57:08AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.59s",
+        "other": 2,
+        "ringtime": "5.29s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:57:23AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "10.41s",
+        "other": 1,
+        "ringtime": "8.4s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:57:43AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "5.54s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:58:09AM",
+        "type": "outgoing"
+    },
+    {
+        "other": 6,
+        "ringtime": "4.55s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:58:21AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "7.89s",
+        "other": 2,
+        "ringtime": "5.7s",
+        "self": 3,
+        "timestamp": "December 01, 2025 12:59:05AM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "8.39s",
+        "other": 7,
+        "ringtime": "6.93s",
+        "self": 3,
+        "timestamp": "December 01, 2025 01:00:16AM",
+        "type": "incoming"
+    },
+    {
+        "other": 0,
+        "ringtime": "4.93s",
+        "self": 3,
+        "timestamp": "December 01, 2025 01:01:36AM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "10.57s",
+        "other": 6,
+        "ringtime": "8.83s",
+        "self": 3,
+        "timestamp": "December 01, 2025 01:01:46AM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "5.38s",
+        "other": 4,
+        "ringtime": "7.4s",
+        "self": 3,
+        "timestamp": "December 01, 2025 01:02:30AM",
+        "type": "incoming"
+    }
+]
