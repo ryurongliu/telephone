@@ -1,4 +1,4 @@
-# RANGER'S GAME OF TELEPHONE
+# RANGER'S GAME OF TELEPHONE (2025)
 A self-evolving soundscape of phone calls between houses, generated from a custom random number-based algorithm and synthesized in MaxMSP. See [here](https://ryurongliu.com/rangers-game-of-telephone) for more information.
 
 2.0 is currently the most up-to-date version of TELEPHONE. 
