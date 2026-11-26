@@ -3,6 +3,8 @@ A self-evolving soundscape of phone calls between houses, generated from a custo
 
 2.0 is currently the most up-to-date version of TELEPHONE. 
 
+HANDHELD version routes all audio to a single-output telephone handset, for quiet galleries. 
+
 All code was written by hand. No AI was used in the creation of this work.
 
 # Code
