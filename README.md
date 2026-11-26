@@ -6,7 +6,7 @@ A self-evolving soundscape of phone calls between houses, generated from a custo
 All code was written by hand. No AI was used in the creation of this work.
 
 # Code
-[Jupyter Notebook](2.0/telephone-2.0.ipynb) handles all call-routing and 'conversation' generation. It uses OSC to send frequency and amplitude CV to [telephone.maxpat](2.0/telephone.maxpat), which synthesizes the 8 different 'voices'. 
+[Jupyter Notebook](2.0/telephone-2.0.ipynb) handles all call-routing and 'conversation' generation. It uses OSC to send frequency and amplitude CV to [telephone.maxpat](2.0/telephone.maxpat), which synthesizes the 8 different 'voices'. Python also sends commands to Arduino, controlling house lights and phone lights.
 
 Call-routing logic is implemented in [telephone.py](2.0/telephone.py), which uses random number-based probabilities to decide who to call, how long to wait for pickup, whether to pickup, whether to redial, and how long to talk for.
 
