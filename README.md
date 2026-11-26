@@ -14,4 +14,7 @@ Call-routing logic is implemented in [telephone.py](2.0/telephone.py), which use
 
 'Conversation' generation is also implemented in [telephone.py](2.0/telephone.py). The algorithm approximates speech-like changes in frequency and duration, including starting and ending each conversation with hello and goodbye. It also handles switching back-and-forth between callers, with appropriate pauses in-between. 
 
+# Call Logs
+
+Call logs are available from the installation of TELEPHONE at Base Camp Studios 2, Seattle, WA, September-December 2025; and from installation at New Alliance Gallery, Boston, MA, September-November 2026.
 
