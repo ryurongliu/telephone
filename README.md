@@ -17,8 +17,8 @@ Call-routing logic is implemented in [telephone.py](2.0/telephone.py), which use
 # Call Logs
 
 Call logs are available from two installations:
-1) Base Camp Studios 2, Seattle, WA, September-December 2025; 16,213 logs
-2) New Alliance Gallery, Boston, MA, September-November 2026; 85,672 logs
+1) Base Camp Studios 2, Seattle, WA, September-December 2025: 16,213 logs
+2) New Alliance Gallery, Boston, MA, September-November 2026: 85,672 logs
 
 For convenience, logs are saved by individual voices (0-7) as well as all together.
 
