@@ -5,8 +5,6 @@ A self-evolving soundscape of phone calls between houses, generated from a custo
 
 All code was written by hand. No AI was used in the creation of this work.
 
-[![video demo](https://img.youtube.com/vi/Q_XGHEn4Ovk/maxresdefault.jpg)](https://www.youtube.com/watch?v=Q_XGHEn4Ovk)
-
 # Code
 [Jupyter Notebook](2.0/telephone-2.0.ipynb) handles all call-routing and 'conversation' generation. It uses OSC to send frequency and amplitude CV to [telephone.maxpat](2.0/telephone.maxpat), which synthesizes the 8 different 'voices'. Python also sends commands to Arduino, controlling house lights and phone lights.
 
@@ -17,4 +15,8 @@ Call-routing logic is implemented in [telephone.py](2.0/telephone.py), which use
 # Call Logs
 
 Call logs are available from the installation of TELEPHONE at Base Camp Studios 2, Seattle, WA, September-December 2025; and from installation at New Alliance Gallery, Boston, MA, September-November 2026.
+
+#Video Demo
+
+[![video demo](https://img.youtube.com/vi/Q_XGHEn4Ovk/maxresdefault.jpg)](https://www.youtube.com/watch?v=Q_XGHEn4Ovk)
 
