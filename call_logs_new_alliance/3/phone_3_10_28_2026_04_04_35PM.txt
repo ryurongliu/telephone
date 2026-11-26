@@ -1,0 +1,33 @@
+[
+    {
+        "call_duration": "14.55s",
+        "other": 4,
+        "ringtime": "5.96s",
+        "self": 3,
+        "timestamp": "October 28, 2026 04:02:27PM",
+        "type": "outgoing"
+    },
+    {
+        "call_duration": "8.49s",
+        "other": 7,
+        "ringtime": "8.07s",
+        "self": 3,
+        "timestamp": "October 28, 2026 04:03:28PM",
+        "type": "incoming"
+    },
+    {
+        "other": 5,
+        "ringtime": "8.83s",
+        "self": 3,
+        "timestamp": "October 28, 2026 04:03:50PM",
+        "type": "cancelled"
+    },
+    {
+        "call_duration": "11.22s",
+        "other": 5,
+        "ringtime": "4.5s",
+        "self": 3,
+        "timestamp": "October 28, 2026 04:04:05PM",
+        "type": "incoming"
+    }
+]

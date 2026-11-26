@@ -1,0 +1,25 @@
+[
+    {
+        "call_duration": "8.24s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 0,
+        "ringtime": "7.97s",
+        "timestamp": "November 02, 2026 02:52:04AM"
+    },
+    {
+        "call_duration": "12.78s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 1,
+        "ringtime": "6.64s",
+        "timestamp": "November 02, 2026 02:52:29AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 5,
+        "ringtime": "4.69s",
+        "timestamp": "November 02, 2026 02:52:53AM"
+    }
+]

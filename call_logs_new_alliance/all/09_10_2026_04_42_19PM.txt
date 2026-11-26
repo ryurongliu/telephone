@@ -1,0 +1,40 @@
+[
+    {
+        "call_type": "unanswered",
+        "caller": 0,
+        "receiver": 4,
+        "ringtime": "8.06s",
+        "timestamp": "September 10, 2026 04:41:30PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 3,
+        "receiver": 1,
+        "ringtime": "8.29s",
+        "timestamp": "September 10, 2026 04:41:31PM"
+    },
+    {
+        "call_duration": "8.55s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 5,
+        "ringtime": "4.54s",
+        "timestamp": "September 10, 2026 04:41:30PM"
+    },
+    {
+        "call_duration": "7.08s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 0,
+        "ringtime": "7.87s",
+        "timestamp": "September 10, 2026 04:41:43PM"
+    },
+    {
+        "call_duration": "5.21s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 2,
+        "ringtime": "8.84s",
+        "timestamp": "September 10, 2026 04:41:51PM"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "call_duration": "14.36s",
+        "other": 3,
+        "ringtime": "7.48s",
+        "self": 4,
+        "timestamp": "September 28, 2026 10:30:54PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "6.8s",
+        "other": 0,
+        "ringtime": "6.4s",
+        "self": 4,
+        "timestamp": "September 28, 2026 10:31:22PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 0,
+        "ringtime": "8.44s",
+        "self": 4,
+        "timestamp": "September 28, 2026 10:31:41PM",
+        "type": "cancelled"
+    }
+]

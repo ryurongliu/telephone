@@ -1,0 +1,33 @@
+[
+    {
+        "call_duration": "14.21s",
+        "other": 7,
+        "ringtime": "4.39s",
+        "self": 6,
+        "timestamp": "August 22, 2026 07:23:59PM",
+        "type": "incoming"
+    },
+    {
+        "call_duration": "5.85s",
+        "other": 1,
+        "ringtime": "5.98s",
+        "self": 6,
+        "timestamp": "August 22, 2026 07:24:23PM",
+        "type": "outgoing"
+    },
+    {
+        "other": 1,
+        "ringtime": "7.66s",
+        "self": 6,
+        "timestamp": "August 22, 2026 07:24:39PM",
+        "type": "missed"
+    },
+    {
+        "call_duration": "11.17s",
+        "other": 7,
+        "ringtime": "6.47s",
+        "self": 6,
+        "timestamp": "August 22, 2026 07:24:53PM",
+        "type": "outgoing"
+    }
+]

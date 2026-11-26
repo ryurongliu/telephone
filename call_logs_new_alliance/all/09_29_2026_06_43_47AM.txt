@@ -1,0 +1,79 @@
+[
+    {
+        "call_type": "declined",
+        "caller": 2,
+        "receiver": 3,
+        "ringtime": "4.22s",
+        "timestamp": "September 29, 2026 06:41:54AM"
+    },
+    {
+        "call_duration": "5.77s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 5,
+        "ringtime": "4.09s",
+        "timestamp": "September 29, 2026 06:41:52AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 5,
+        "receiver": 1,
+        "ringtime": "6.85s",
+        "timestamp": "September 29, 2026 06:42:07AM"
+    },
+    {
+        "call_duration": "13.39s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 4,
+        "ringtime": "6.96s",
+        "timestamp": "September 29, 2026 06:42:04AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 1,
+        "receiver": 6,
+        "ringtime": "5.86s",
+        "timestamp": "September 29, 2026 06:42:21AM"
+    },
+    {
+        "call_duration": "9.15s",
+        "call_type": "connected",
+        "caller": 4,
+        "receiver": 3,
+        "ringtime": "5.05s",
+        "timestamp": "September 29, 2026 06:42:34AM"
+    },
+    {
+        "call_duration": "13.86s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 2,
+        "ringtime": "6.41s",
+        "timestamp": "September 29, 2026 06:42:33AM"
+    },
+    {
+        "call_duration": "5.59s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 4,
+        "ringtime": "4.73s",
+        "timestamp": "September 29, 2026 06:42:56AM"
+    },
+    {
+        "call_duration": "6.58s",
+        "call_type": "connected",
+        "caller": 4,
+        "receiver": 7,
+        "ringtime": "8.84s",
+        "timestamp": "September 29, 2026 06:43:11AM"
+    },
+    {
+        "call_duration": "12.12s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 6,
+        "ringtime": "7.26s",
+        "timestamp": "September 29, 2026 06:43:13AM"
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "call_type": "declined",
+        "caller": 3,
+        "receiver": 2,
+        "ringtime": "5.0s",
+        "timestamp": "July 30, 2026 04:42:23PM"
+    },
+    {
+        "call_duration": "8.62s",
+        "call_type": "connected",
+        "caller": 4,
+        "receiver": 1,
+        "ringtime": "8.92s",
+        "timestamp": "July 30, 2026 04:42:20PM"
+    },
+    {
+        "call_duration": "10.59s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 0,
+        "ringtime": "6.73s",
+        "timestamp": "July 30, 2026 04:42:22PM"
+    },
+    {
+        "call_duration": "7.95s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 5,
+        "ringtime": "5.45s",
+        "timestamp": "July 30, 2026 04:42:47PM"
+    },
+    {
+        "call_duration": "11.61s",
+        "call_type": "connected",
+        "caller": 5,
+        "receiver": 6,
+        "ringtime": "6.75s",
+        "timestamp": "July 30, 2026 04:43:04PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 6,
+        "receiver": 1,
+        "ringtime": "4.26s",
+        "timestamp": "July 30, 2026 04:43:26PM"
+    },
+    {
+        "call_duration": "11.11s",
+        "call_type": "connected",
+        "caller": 6,
+        "receiver": 0,
+        "ringtime": "6.37s",
+        "timestamp": "July 30, 2026 04:43:35PM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 6,
+        "receiver": 5,
+        "ringtime": "4.78s",
+        "timestamp": "July 30, 2026 04:44:00PM"
+    }
+]

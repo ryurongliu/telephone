@@ -1,0 +1,56 @@
+[
+    {
+        "call_type": "unanswered",
+        "caller": 4,
+        "receiver": 7,
+        "ringtime": "8.42s",
+        "timestamp": "September 21, 2026 02:42:22AM"
+    },
+    {
+        "call_duration": "7.47s",
+        "call_type": "connected",
+        "caller": 3,
+        "receiver": 2,
+        "ringtime": "6.68s",
+        "timestamp": "September 21, 2026 02:42:24AM"
+    },
+    {
+        "call_duration": "8.48s",
+        "call_type": "connected",
+        "caller": 1,
+        "receiver": 6,
+        "ringtime": "4.78s",
+        "timestamp": "September 21, 2026 02:42:26AM"
+    },
+    {
+        "call_duration": "14.21s",
+        "call_type": "connected",
+        "caller": 0,
+        "receiver": 5,
+        "ringtime": "5.73s",
+        "timestamp": "September 21, 2026 02:42:26AM"
+    },
+    {
+        "call_type": "declined",
+        "caller": 2,
+        "receiver": 1,
+        "ringtime": "5.27s",
+        "timestamp": "September 21, 2026 02:42:47AM"
+    },
+    {
+        "call_duration": "6.45s",
+        "call_type": "connected",
+        "caller": 5,
+        "receiver": 7,
+        "ringtime": "8.37s",
+        "timestamp": "September 21, 2026 02:42:55AM"
+    },
+    {
+        "call_duration": "11.29s",
+        "call_type": "connected",
+        "caller": 7,
+        "receiver": 3,
+        "ringtime": "7.56s",
+        "timestamp": "September 21, 2026 02:43:15AM"
+    }
+]
